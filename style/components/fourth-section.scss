@@ -1,10 +1,10 @@
 .fourth-section {
 	padding-top: 120px;
-	background: #F3F3F3;
-	&__img {
-		position: absolute;
-		transform: rotate(180deg);
-	}
+	background-image: url(./src/img/circle-blue-left.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	margin-bottom: 60px;
 	&__content {
 		display: flex;
 		justify-content: space-between;
@@ -12,7 +12,6 @@
 }
 
 .event-item {
-	position: relative;
 	width: 416px;
 	height: 394px;
 	background: #FFFFFF;

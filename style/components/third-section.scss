@@ -1,10 +1,8 @@
 .third-section {
-	position: relative;
-	background: #F3F3F3;
-	&__img {
-		position: absolute;
-		left: 0;
-	}
+	background-image: url(./src/img/circle-green.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
 	&__title {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
@@ -15,7 +13,6 @@
 		padding-top: 130px;
 	}
 	&__content {
-		position: relative;
 		width: 100%;
 		min-height: 561px;
 		background: #FFFFFF;
@@ -29,21 +26,15 @@
 		border: none;
 	}
 }
-//!!!! исправить размеры px (внизу и на верху)
+
 .case-content {
 	display: flex;
 	padding: 30px;
 	margin-bottom: 30px;
 	&__left-wrapper {
-		// position: relative;
-		// top: 30px;
-		// left: 30px;
 		margin-right: 60px;
 	}
 	&__img {
-		// position: absolute;
-		// top: 30px;
-		// left: 30px;
 		width: 316px;
 		height: 408px;
 		background: #D9D9D9;
@@ -65,11 +56,6 @@
 		color: #65C892;
 		text-align: center;
 	}
-	// &__right-wrapper {
-		// position: relative;
-		// top: 30px;
-		// left: 30px;
-	// }
 	&__title {
 		font-family: 'Montserrat';
 		font-weight: 700;

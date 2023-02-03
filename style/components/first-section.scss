@@ -4,8 +4,8 @@
 	border-radius: 0px 0px 50px 50px;
 	&__img {
 		position: absolute;
-		top: 200px;
-		right: 140px;
+		padding-top: 50px;
+		padding-left: 820px;
 	}
 	&__title {
 		width: 1210px;
@@ -36,42 +36,5 @@
 		font-weight: 400;
 		font-size: 1.5rem;
 		color: #FFFFFF;
-	}
-}
-
-//!!! использовать rem и %
-.header {
-	padding-top: 20px;
-	display: flex;
-	align-items: center;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 1rem;
-	margin-bottom: 70px;
-	> img {
-		margin-right: 7px;
-		&:nth-child(2) {
-			margin-right: 208px;
-		}
-	}
-	a {
-		text-decoration: none;
-		color: #022A66;
-		margin-right: 115px;
-		&:nth-child(5) {
-			margin-right: 307px;
-		}
-	}
-	button {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		width: 118px;
-		height: 40px;
-		border: 1px solid #0455CC;
-		background: rgba(0,0,0,0);
-		border-radius: 31px;
-		font-weight: 400;
-		color: #0455CC;
 	}
 }

@@ -8,19 +8,19 @@
 </head>
 <body>
   <section class="first-section">
-    <img class="first-section__img" src="./public/img/people.png" alt="группа">
     <div class="container">
-      <header class="header">
-        <img src="./public/img/platform.svg" alt="платформа">
-        <img src="./public/img/university.svg" alt="университет">
+      <div class="header">
+        <img src="./src/img/platform.svg" alt="платформа">
+        <img src="./src/img/university.svg" alt="университет">
         <a href="#">Новости</a>
         <a href="#">Возможности</a>
         <a href="#">Кейсы студентов</a>
         <button>
           Войти
-          <img src="./public/img/user.svg" alt="пользователь">
+          <img src="./src/img/user.svg" alt="пользователь">
         </button>
-      </header>
+      </div>
+      <img class="first-section__img" src="./src/img/people.png" alt="группа">
       <h1 class="first-section__title"><span>Прокачай</span> предпринимательские компетенции с Сетевым Центром
         Компетенций</h1>
       <p class="first-section__text">В целом, конечно, сплочённость команды профессионалов напрямую зависит от
@@ -30,12 +30,11 @@
     </div>
   </section>
   <section class="second-section">
-    <img class="second-section__img" src="./public/img/circle-blue.svg" alt="круг">
     <div class="container">
       <h2 class="second-section__title">Твои возможности</h2>
       <div class="second-section__list">
         <div class="second-section__item possibility-item">
-          <img class="possibility-item__img" src="./public/img/navigator.png" alt="навигатор">
+          <img class="possibility-item__img" src="./src/img/navigator.png" alt="навигатор">
           <div class="possibility-item__content">
             <h3 class="possibility-item__title">НАВИГАТОР КОНКУРСОВ</h3>
             <p class="possibility-item__text">
@@ -44,7 +43,7 @@
           </div>
         </div>
         <div class="second-section__item possibility-item">
-          <img class="possibility-item__img" src="./public/img/book.png" alt="книга">
+          <img class="possibility-item__img" src="./src/img/book.png" alt="книга">
           <div class="possibility-item__content">
             <h3 class="possibility-item__title possibility-item__title_green">БИБЛИОТЕКА</h3>
             <p class="possibility-item__text">
@@ -54,7 +53,7 @@
           </div>
         </div>
         <div class="second-section__item possibility-item">
-          <img class="possibility-item__img" src="./public/img/cup.png" alt="кубок">
+          <img class="possibility-item__img" src="./src/img/cup.png" alt="кубок">
           <div class="possibility-item__content">
             <h3 class="possibility-item__title possibility-item__title_yellow">СОБЫТИЯ</h3>
             <p class="possibility-item__text">
@@ -63,7 +62,7 @@
           </div>
         </div>
         <div class="second-section__item possibility-item">
-          <img class="possibility-item__img" src="./public/img/community.png" alt="сообщество">
+          <img class="possibility-item__img" src="./src/img/community.png" alt="сообщество">
           <div class="possibility-item__content">
             <h3 class="possibility-item__title possibility-item__title_violet">СООБЩЕСТВА</h3>
             <p class="possibility-item__text">
@@ -76,7 +75,6 @@
     </div>
   </section>
   <section class="third-section">
-    <img class="third-section__img" src="./public/img/circle-green.svg" alt="круг">
     <div class="container">
       <h2 class="third-section__title">Кейсы студентов</h2>
       <div class="third-section__content case-content">
@@ -107,13 +105,12 @@
         </div>
       </div>
       <div class="third-section__button-box">
-        <button class="third-section__button"><img src="./public/img/arrow-left.svg" alt="кнопка в лево"></button>
-        <button class="third-section__button"><img src="./public/img/arrow-right.svg" alt="кнопка в право"></button>
+        <button class="third-section__button"><img src="./src/img/arrow-left.svg" alt="кнопка в лево"></button>
+        <button class="third-section__button"><img src="./src/img/arrow-right.svg" alt="кнопка в право"></button>
       </div>
     </div>
   </section>
   <section class="fourth-section">
-    <img class="fourth-section__img" src="./public/img/circle-blue.svg" alt="круг">
     <div class="container">
       <div class="fourth-section__content">
         <div class="fourth-section__item event-item">
@@ -128,6 +125,37 @@
       </div>
     </div>
   </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__header header">
+        <img src="./src/img/platform.svg" alt="платформа">
+        <img src="./src/img/university.svg" alt="университет">
+        <a href="#">Новости</a>
+        <a href="#">Возможности</a>
+        <a href="#">Кейсы студентов</a>
+        <button>
+          Войти
+          <img src="./src/img/user.svg" alt="пользователь">
+        </button>
+      </div>
+      <div class="footer__wrapper">
+        <div class="footer__left-wrapper">
+          <h2>ФГБОУ ВО "НГУЭУ"</h2>
+          <h2>ОГРН 1025402483105</h2>
+          <h2><a href="#">Политика конфиденциальности</a></h2>
+        </div>
+        <div class="footer__center-wrapper">
+          <img src="./src/img/telegram.svg" alt="телеграмм">
+          <img src="./src/img/vk.svg" alt="вк">
+        </div>
+        <div class="footer__right-wrapper">
+          <h2>+7-383-243-94-70,</h2>
+          <h2>b.lab@nsuem.ru</h2>
+          <h2>сайт.ru 2023 ©</h2>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script type="module" src="/main.js"></script>
 </body>
 </html>

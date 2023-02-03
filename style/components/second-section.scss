@@ -1,10 +1,8 @@
 .second-section {
-	position: relative;
-	background: #F3F3F3;
-	&__img {
-		position: absolute;
-		right: 0;
-	}
+	background-image: url(./src/img/circle-blue.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
 	&__title {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
