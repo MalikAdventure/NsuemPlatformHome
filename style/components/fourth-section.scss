@@ -1,0 +1,48 @@
+.fourth-section {
+	padding-top: 120px;
+	background: #F3F3F3;
+	&__img {
+		position: absolute;
+		transform: rotate(180deg);
+	}
+	&__content {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.event-item {
+	position: relative;
+	width: 416px;
+	height: 394px;
+	background: #FFFFFF;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__title {
+		font-family: 'Montserrat';
+		font-weight: 700;
+		font-size: 2.1rem;
+		background: linear-gradient(269.86deg, #87ABF1 3.18%, #A6F499 92.73%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+		text-align: center;
+		&_orange {
+			background: linear-gradient(269.86deg, #F57979 3.18%, #FFBD5A 92.73%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			text-fill-color: transparent;
+		}
+		&_violet {
+			background: linear-gradient(269.86deg, #F57979 3.18%, #7453AF 92.73%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			text-fill-color: transparent;
+		}
+	}
+}

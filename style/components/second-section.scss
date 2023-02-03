@@ -1,0 +1,64 @@
+.second-section {
+	position: relative;
+	background: #F3F3F3;
+	&__img {
+		position: absolute;
+		right: 0;
+	}
+	&__title {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		font-size: 2.5rem;
+		color: #705AA0;
+		padding-top: 60px;
+		margin-top: 0;
+		margin-bottom: 70px;
+	}
+}
+
+.possibility-item {
+	display: flex;
+	align-items: center;
+	gap: 60px;
+	&__img {
+		height: 100%;
+		width: 9%;
+	}
+	&__title {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		font-size: 1.9rem;
+		background: linear-gradient(269.86deg, #87ABF1 3.18%, #B699F4 92.73%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+		text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+		&_green {
+			background: linear-gradient(269.86deg, #87ABF1 3.18%, #43EB28 92.73%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			text-fill-color: transparent;
+		}
+		&_yellow {
+			background: linear-gradient(269.86deg, #F57979 3.18%, #FFBD5A 92.73%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			text-fill-color: transparent;
+		}
+		&_violet {
+			background: linear-gradient(269.86deg, #F57979 3.18%, #7453AF 92.73%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			text-fill-color: transparent;
+		}
+	}
+	&__text {
+		font-family: 'Century Gothic';
+		font-weight: 700;
+		font-size: 1.5rem;
+	}
+}

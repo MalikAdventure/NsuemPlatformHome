@@ -1,0 +1,98 @@
+.third-section {
+	position: relative;
+	background: #F3F3F3;
+	&__img {
+		position: absolute;
+		left: 0;
+	}
+	&__title {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		font-size: 2.5rem;
+		color: #705AA0;
+		margin-top: 0;
+		margin-bottom: 60px;
+		padding-top: 130px;
+	}
+	&__content {
+		position: relative;
+		width: 100%;
+		min-height: 561px;
+		background: #FFFFFF;
+		border-radius: 13px;
+	}
+	&__button-box {
+		display: flex;
+		justify-content: flex-end;
+	}
+	&__button {
+		border: none;
+	}
+}
+//!!!! исправить размеры px (внизу и на верху)
+.case-content {
+	display: flex;
+	padding: 30px;
+	margin-bottom: 30px;
+	&__left-wrapper {
+		// position: relative;
+		// top: 30px;
+		// left: 30px;
+		margin-right: 60px;
+	}
+	&__img {
+		// position: absolute;
+		// top: 30px;
+		// left: 30px;
+		width: 316px;
+		height: 408px;
+		background: #D9D9D9;
+		border-radius: 15px;
+		margin-bottom: 20px;
+	}
+	&__name {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		font-size: 1.3rem;
+		color: #7453AF;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	&__info {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		font-size: 0.9rem;
+		color: #65C892;
+		text-align: center;
+	}
+	// &__right-wrapper {
+		// position: relative;
+		// top: 30px;
+		// left: 30px;
+	// }
+	&__title {
+		font-family: 'Montserrat';
+		font-weight: 700;
+		font-size: 1.9rem;
+		color: #A3A3A3;
+		margin-top: 0;
+		margin-bottom: 10px;
+		&_orange {
+			background: linear-gradient(269.86deg, #F57979 3.18%, #FFBD5A 92.73%), #7453AF;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			text-fill-color: transparent;
+		}
+	}
+	&__text {
+		font-family: 'Century Gothic';
+		font-weight: 700;
+		font-size: 1.1rem;
+		color: #313131;
+		line-height: 27px;
+		text-align: justify;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+}
