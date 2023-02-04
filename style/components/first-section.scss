@@ -1,14 +1,14 @@
 .first-section {
-	min-height: 737px;
+	min-height: 500px;
 	background: linear-gradient(180deg, #FFFFFF 1.56%, #F47575 42.41%, #E399EA 90.62%);
 	border-radius: 0px 0px 50px 50px;
-	&__img {
-		position: absolute;
-		padding-top: 50px;
-		padding-left: 820px;
+	&__container {
+		background-image: url(./src/img/people.png);
+		background-repeat: no-repeat;
+		background-position: right 0% bottom 20%;
 	}
 	&__title {
-		width: 1210px;
+		width: 86%;
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
 		font-size: 3rem;
@@ -19,7 +19,7 @@
 			color: #7453AF;
 		}
 	&__text {
-		width: 783px;
+		width: 68%;
 		font-family: 'Century Gothic';
 		font-weight: 700;
 		font-size: 1.1rem;
@@ -36,5 +36,6 @@
 		font-weight: 400;
 		font-size: 1.5rem;
 		color: #FFFFFF;
+		margin-bottom: 15%;
 	}
 }
