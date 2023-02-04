@@ -1,0 +1,9 @@
+.third-section {
+	padding-top: 60px;
+	margin-bottom: 60px;
+	&__box-new {
+		display: flex;
+		gap: 24px;
+		margin-bottom: 30px;
+	}
+}
