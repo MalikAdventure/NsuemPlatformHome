@@ -1,0 +1,33 @@
+.second-section {
+	margin-bottom: 60px;
+	&__new {
+		width: 100%;
+		min-height: 533px;
+		background: #D9D9D9;
+	}
+	&__box {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 30px;
+	}
+	&__title {
+		font-family: 'Montserrat';
+		font-weight: 700;
+		font-size: 1.5rem;
+		color: #313131;
+	}
+	&__data {
+		font-family: 'Montserrat';
+		font-weight: 700;
+		font-size: 1.5rem;
+		color: #D39292;
+	}
+	&__text {
+		text-indent: 2rem;
+		text-align: justify;
+		font-family: 'Montserrat';
+		font-weight: 400;
+		font-size: 1.1rem;
+		color: #313131;
+	}
+}
