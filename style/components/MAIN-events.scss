@@ -1,4 +1,4 @@
-.fourth-section {
+.events {
 	padding-top: 120px;
 	background-image: url(./src/img/circle-blue-left.svg);
 	background-repeat: no-repeat;
@@ -15,12 +15,11 @@
 	width: 30%;
 	aspect-ratio: 1 / 1;
 	background: #FFFFFF;
-	border-radius: 25px;
+	border-radius: 5%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	&__title {
-		font-family: 'Montserrat';
 		font-weight: 700;
 		font-size: 2.1rem;
 		background: linear-gradient(269.86deg, #87ABF1 3.18%, #A6F499 92.73%);

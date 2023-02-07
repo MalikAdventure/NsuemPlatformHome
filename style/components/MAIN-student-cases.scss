@@ -1,10 +1,9 @@
-.third-section {
+.student-cases {
 	background-image: url(./src/img/circle-green.svg);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: contain;
 	&__title {
-		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
 		font-size: 2.5rem;
 		color: #705AA0;
@@ -20,9 +19,11 @@
 	&__button-box {
 		display: flex;
 		justify-content: flex-end;
+		gap: 30px;
 	}
 	&__button {
 		border: none;
+		cursor: pointer;
 	}
 }
 
@@ -41,7 +42,6 @@
 		margin-bottom: 20px;
 	}
 	&__name {
-		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
 		font-size: 1.3rem;
 		color: #7453AF;
@@ -49,14 +49,11 @@
 		margin-bottom: 20px;
 	}
 	&__info {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 400;
 		font-size: 0.9rem;
 		color: #65C892;
 		text-align: center;
 	}
 	&__title {
-		font-family: 'Montserrat';
 		font-weight: 700;
 		font-size: 1.9rem;
 		color: #A3A3A3;
@@ -71,7 +68,7 @@
 		}
 	}
 	&__text {
-		font-family: 'Century Gothic';
+		font-family: 'Century Gothic', sans-serif;
 		font-weight: 700;
 		font-size: 1.1rem;
 		color: #313131;

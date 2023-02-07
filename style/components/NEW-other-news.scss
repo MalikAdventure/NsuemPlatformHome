@@ -1,15 +1,13 @@
-.third-section {
+.other-news {
 	margin-bottom: 60px;
 	&__title {
-		font-family: 'Montserrat';
-		font-weight: 400;
 		font-size: 1.5rem;
 		color: #BFBFBF;
 		margin-bottom: 30px;
 	}
 	&__box-new {
 		display: flex;
-		gap: 2%;
-		margin-bottom: 30px;
+		gap: 24px;
+		margin-bottom: 60px;
 	}
 }

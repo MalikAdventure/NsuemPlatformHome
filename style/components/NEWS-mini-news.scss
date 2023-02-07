@@ -1,0 +1,10 @@
+.mini-news {
+	padding-top: 60px;
+	margin-bottom: 60px;
+	&__box-new {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 24px;
+		margin-bottom: 60px;
+	}
+}

@@ -1,4 +1,4 @@
-.first-section {
+.pump-up {
 	min-height: 500px;
 	background: linear-gradient(180deg, #FFFFFF 1.56%, #F47575 42.41%, #E399EA 90.62%);
 	border-radius: 0px 0px 50px 50px;
@@ -9,7 +9,6 @@
 	}
 	&__title {
 		width: 86%;
-		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
 		font-size: 3rem;
 		color: #FFFFFF;
@@ -20,7 +19,7 @@
 		}
 	&__text {
 		width: 68%;
-		font-family: 'Century Gothic';
+		font-family: 'Century Gothic', sans-serif;
 		font-weight: 700;
 		font-size: 1.1rem;
 		color: #FFFFFF;
@@ -32,8 +31,7 @@
 		border: none;
 		background: #0455CC;
 		border-radius: 46px;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 400;
+		cursor: pointer;
 		font-size: 1.5rem;
 		color: #FFFFFF;
 		margin-bottom: 15%;
